@@ -23,9 +23,13 @@ function whileLoop(number){
 
 whileLoop(20);
 
+var scArray = ["onur", "yonur"]
+
 function doWhileLoop(array) {
   do {
 		array.pop()
 } while (array.length > 0 && maybeTrue())
   return array
 };
+
+doWhileLoop(scArray);
