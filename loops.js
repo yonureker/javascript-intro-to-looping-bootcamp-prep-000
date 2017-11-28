@@ -23,10 +23,6 @@ function whileLoop(number){
 
 whileLoop(20);
 
-do {
-	return array
-} while (doWhileLoop(array));
-
 function doWhileLoop(array) {
   do {
 		array.pop()
